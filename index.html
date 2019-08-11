@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="home">
-  <div class="full-hero hero-home">
+  <div class="full-hero hero-home" style="background-image: url({{"/images/shark.jpg" | relative_url}})">
     <div class="hero-content">
       <h1>CODE DANGEROUSLY</h1>
       <ul class="social-list">
@@ -57,7 +57,7 @@ layout: default
     <div class="blog-posts">
       <header class="post-header">
         <h2>
-          <a href="{{ site.posts.first.url }}">
+          <a href="{{ site.posts.first.url | relative_url }}">
           {{ site.posts.first.title }}</a>
         </h2>
         <div class="post-byline">
@@ -69,11 +69,11 @@ layout: default
         </div>
       </header>
       <div class="posts-image"
-      style="background-image:url({{ site.posts.first.postHero }})"></div>
+      style="background-image:url({{ site.posts.first.postHero | relative_url }})"></div>
       {{ site.posts.first.excerpt }}
     </div>
   </div>
-  
+
   <div class="home-section">
     <h2>THE FOUNDERS</h2>
     <p>
