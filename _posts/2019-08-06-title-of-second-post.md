@@ -1,6 +1,7 @@
 ---
 layout: post
 title: New title lol whats up
+description: This is what will not be read
 postHero: /images/logo.png
 author: Definitely someone else
 authorTwitter: https://twitter.com/coconut_hammock

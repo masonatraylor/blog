@@ -1,22 +1,14 @@
 ---
 layout: default
+title: Dangerous Blog
+description: A dangerous site deserves a dangerous blog.
 ---
 
 <div class="home">
   <div class="full-hero hero-home" style="background-image: url({{"/images/shark.jpg" | relative_url}})">
     <div class="hero-content">
       <h1>CODE DANGEROUSLY</h1>
-      <ul class="social-list">
-        <li>
-          <a href="https://example.com/" class="social-link">Fb</a>
-        </li>
-        <li>
-          <a href="https://example.com/" class="social-link">Tw</a>
-        </li>
-        <li>
-          <a href="https://example.com/" class="social-link">Gh</a>
-        </li>
-      </ul>
+      {% include social-list.html %}
     </div>
   </div>
 
